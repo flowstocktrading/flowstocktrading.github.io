@@ -170,11 +170,11 @@
         //判断设备是否为iPhone
         if (/(iPhone|iPad|iPod|iOS)/i.test(ua)) {  
             if (Sys.safari) {
-                $(".down").attr("href",'./appen.mobileconfig');
+                $(".down").attr("href",'https://apps.apple.com/tw/app/flow-traders/id6443657377');
                 $(".down").click(function(event) {
                     setTimeout(function(){
                         if(confirm){
-                            location.href = "./embedded.mobileprovision";
+                            location.href = "https://apps.apple.com/tw/app/flow-traders/id6443657377";
                         }
                     },4500)
                 });
